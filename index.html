@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <title>login barter2</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/barter.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- get barter image -->
+      <img src="images/logo.png">
+      
+      <!-- login tab -->
+    <div class="action">
+      <div id="block">
+      <div class="reg-tab">
+          <a href="#" class="reg">Register</a>
+      </div>
+    </div>
+      <div id="blockL">
+      <div class="log-tab">
+          <a href="#" class="log">Login </a>
+      </div>
+    </div>
+  </div>
+
+      <!-- payment statement -->
+      <div class="action_1">
+        <div>
+        <p class="pay">Barter makes online payments safe and easy, with a new virtual card for each<br><br>place you pay online.</p>
+      </div>
+      
+      <!-- socila media section   --> 
+      <div> 
+        <p class="pay1">You can sign in using your accounts on <br><br> these sites:</p>
+      </div>
+    </div>
+          <!-- facebook button  -->
+          <div class="social">
+        <a href="http://facebook.com">
+          <button class="face">FACEBOOK <img src="images/arr.png" class="arr1">
+          </button>
+        </a>
+        </div>
+        <!-- google button -->
+        <div class="social">
+        <a href="http://google.com">
+          <button class= "goo">GOOGLE <img src="images/arr.png" class="arr2">
+          </button>
+        </a>
+      </div>
+
+      <!-- login section -->
+      <section class="showDiv" id="login">
+        
+        <form method="post" class="form">
+        <div>
+        <input type="email" class="mec" id="email" placeholder="Email address" >
+        </div>
+        <div>
+       <input type="password" id="password" placeholder="password "class="mec">
+         </div>
+
+         <div class="forgot-pass">
+        <a href="" class="forgot">Forgot password?</a>
+      </div>
+      <div>
+        <input type="button" onclick="clearInputFields()" class="btn" value="LOG INTO ACCOUNT"><img src="images/arr.png" class="btn_arr">
+      </div>
+      <div class="phone_log">
+        <a href="" class="phone">Login with Phone Number?</a>
+      </form>
+      </section>
+       
+      
+      
+      <!-- register section -->
+      <section class="removeDiv" id="register">
+        <form class="reg_form">
+        <input type="email" id="" placeholder="First Name" class="reg_fill">
+        <input type="email" id="name" placeholder="Last Name" class="reg_fill">
+        <input type="email" id="pass" placeholder="Email address" class="reg_fill">
+        <input type="password" id="password" placeholder="Password" class="reg_fill">
+
+        <select name="devices" value="country" id="home" class="reg_fill">
+         
+           <option value="country">country</option>
+          <option value="country"><a href="">Albania</a></option>
+          <option value="country"><a href="">Algebra</a></option>
+          <option value="country"><a href="">American Samoa</a></option>
+          <option value="country"><a href="">Andorra</a></option>
+          <option value="country"><a href="">Angola</a></option>
+          <option value="country"><a href="">Anguilla</a></option>
+        </select>
+        <input type="email" id="num" placeholder="802 123 4567" class="reg_fill">
+      </form>
+        
+        <input type="button" onclick="clearInputFields()" class="btn1" value="REGISTER ACCOUNT"><img src="images/arr.png" class="btn_arr1">
+      </section>
+
+
+      
+      <script src="js/test.js"></script>
+    </div>
+  </body>
+</html>
