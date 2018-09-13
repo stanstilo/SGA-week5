@@ -88,6 +88,9 @@ input[type=email]:focus{
  input[type=password]:focus{
  	border-bottom: 1px solid #3c52dd;
  }
+ input[type=text]:focus{
+ 	border-bottom: 1px solid #3c52dd;
+ }
 
 .form{
 	margin-top: -16%;
@@ -171,12 +174,16 @@ input[type=email]:focus{
 	}
 	.btn:hover{
 		background-color: #0000cc;
+		
 	}
 	
   .btn_arr{
 	margin-left: -6%;
 	width:30px;
 	position: relative;
+	}
+	.btn_arr:hover{
+		width: 3%;
 	}
 
 .reg_fill{
